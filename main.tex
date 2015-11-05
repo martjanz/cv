@@ -1,0 +1,297 @@
+% -- Encoding UTF-8 without BOM
+% -- XeLaTeX => PDF (BIBER)
+
+\documentclass[]{cv-style}          % Add 'print' as an option into the square bracket to remove colours from this template for printing. 
+                                    % Add 'espanol' as an option into the square bracket to change the date format of the Last Updated Text
+
+\sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut 
+
+\begin{document}
+
+\title{Colorful CV}
+
+\header{Martín} {Anzorena}           % Your name
+\lastupdated
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION  -- In the aside, each new line forces a line break
+%----------------------------------------------------------------------------------------
+
+\begin{aside}
+%
+\section{Contact}
+San José 520 apt. 10
+Aut. City of Buenos Aires
+Postal Code 1076
+Argentina
+~
+Mobile nº:
++549 11 6691 0596
+~
+Email:
+martin.anzorena
+@gmail.com
+%
+\section{Links} 
+Github:// martjanz
+CartoDB:// martianz
+LinkedIn:// martinanzorena
+%
+\section{Human
+Languages}
+Spanish (native),
+English (intermediate)
+%
+\section{Computer
+   Languages}
+PHP, JavaScript,
+Oracle Forms,
+Visual Basic,
+Clipper, R,
+Java, SPSS,
+JavaScript,
+HTML, CSS,
+jQuery, Python,
+Unix Shell,
+Windows Cmd
+%
+\section{Databases}
+PostgreSQL, Oracle,
+MySQL, SQLite,
+SQL Server/Sybase,
+MS Access, Paradox
+%
+\section{Other}
+Git, Subversion,
+MS Excel, MS Word,
+Windows, OS X,
+Linux, QGIS,
+Node.js, Vagrant
+%
+\end{aside}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+{\vspace{+0.4cm}}
+\section{Experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+  {2011-Present}
+  {National Institute of Statistics and Censuses of Argentina}
+  {Autonomous City of Buenos Aires}
+  {\jobtitle{IT Team Leader at Household Surveys Department}\\
+  Full stack development (mainly data entry systems), data cleansing and data analysis in conjunction with multidisciplinary teams.\\\
+  \\
+  Accomplished projects:
+  \begin{itemize}
+  	\item Full data process automation on Permanent Household Survey.
+  	\item 2014 Household Mobility Survey
+    \item 2014 National Youth Survey
+    \item 2014 National Survey on Sexual and Reproductive Health
+    \item 2013 National Risk Factors Survey
+    \item 2012 National Survey on Quality of Life of Elderly People
+    \item 2012 National Household Expenditure Survey
+    \item 2012 Global Adult Tobacco Survey (Argentina)
+    \item 2011 National Survey on Prevalence of Psicoactive Sustances Consumption 
+  \end{itemize}
+}\\
+%------------------------------------------------
+%------------------------------------------------
+\entry
+  {2011}
+  {National Institute of Statistics and Censuses of Argentina}
+  {Autonomous City of Buenos Aires}
+  {\jobtitle{IT Technician at Household Surveys Department}\\
+  Data entry software developer of two national surveys. Country IT specialist and data manager in the Global Adult Tobacco Survey Argentina (Pretest and Full Scale operations). \\\
+  \\
+  Notable achievement:
+  \begin{itemize}
+    \item Full implementation of the first national survey with electronic data collection.
+  \end{itemize}
+}\\
+%------------------------------------------------
+%------------------------------------------------
+\entry
+  {2009-2011}
+  {Inworx IT Solutions}
+  {Autonomous City of Buenos Aires}
+  {\jobtitle{Programmer Analyst}\\
+  Documentation, hot-fixing and deployment of SOAP and XML webservices interfacing insurance quote engines and client web servers.
+  }\\
+%------------------------------------------------
+%------------------------------------------------
+\entry
+  {2007-2009}
+  {Inworx IT Solutions}
+  {Autonomous City of Buenos Aires}
+  {\jobtitle{On-Site Programmer Analyst}\\
+  Working on-site at Latin American branches of world biggest insurance brokers (Aon, Marsh, Willis) and national banks deploying application servers on production environments.\\\
+  \\\
+  Notable achievement:
+  \begin{itemize}
+    \item Design, development and (successful) execution of a database migration in a 350.000 users banking software.
+  \end{itemize}
+}\\
+%------------------------------------------------
+%------------------------------------------------
+\entry
+  {2004-2007}
+  {Galbop Software Industry}
+  {Gualeguaychú, Entre Ríos}
+  {\jobtitle{Trainee / Software Developer}\\
+  Pharmacy and healthcare administrators software running on top of old technologies (Clipper, dBase, 486 processors, 14400 bps modems, etc).\\
+  \\\
+  Notable achievement:
+  \begin{itemize}
+  	\item Development of emergency migration software from dBase IV to MySQL in less than one week.
+  \end{itemize}
+}
+%------------------------------------------------
+
+\end{entrylist}
+\\
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+{\vspace{+4.5cm}}
+\section{Projects}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2015}
+{Election Results Forecaster}
+{Front for Victory}
+{Stratified sampler, results aggregator and stats viewer web application to estimate election results several hours before official results.\\
+\\
+  R \textbullet{} PostgreSQL \textbullet{} jQuery \textbullet{} Node.js \textbullet{} Express.js \textbullet{} Redis \textbullet{} OpenShift \textbullet{} Vagrant
+}
+{\vspace{-0.3cm}}
+\end{entrylist}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2015}
+{Public data repository (http://datar.noip.me)}
+{Personal project}
+{Data crawling, wrangling and publishing of public data in a full open source environment.\\
+\\
+  CKAN \textbullet{} PostgreSQL
+}
+{\vspace{-0.3cm}}
+\end{entrylist}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2014}
+{Multiple Batch Geocoder}
+{National Institute of Statistics and Censuses of Argentina}
+{Command-line PHP application for batch address geocoding using multiple API services.\\
+\\
+PHP \textbullet{} PostgreSQL \textbullet{} OpenStreetMap, Google Maps and Bing Maps APIs
+}
+{\vspace{-0.3cm}}
+\end{entrylist}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2014}
+{CampoMap (http://martjanz.github.io/campomap)}
+{Personal project}
+{National Census cartography viewer over OpenStreetMap, GoogleMaps and other tile services.\\
+\\ PHP \textbullet{} PostgreSQL \textbullet{} Leaflet
+}
+{\vspace{-0.3cm}}
+\end{entrylist}
+\\
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2003--2004}
+{Programmer Analyst}
+{Sedes Sapienti\ae\ Superior Institute}
+{\vspace{-0.3cm}}
+\entry
+{1998--2002}
+{High School Degree}
+{Pío XII Institute}
+{\vspace{-0.3cm}}
+
+%------------------------------------------------
+\end{entrylist}
+\\
+%----------------------------------------------------------------------------------------
+%	COURSES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Courses}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2013}
+{Advanced PHP/PostgreSQL}
+{National Technological University of Argentina}
+{\vspace{-0.3cm}}
+\entry
+{2012}
+{Java SE 6 (SL-275-SE6)}
+{National Technological University of Argentina - Oracle}
+{\vspace{-0.3cm}}
+%------------------------------------------------
+\end{entrylist}
+\\
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{}
+{Public data}
+{}
+{Making data and information available and usable to people from various disciplines, even to those who are not accostumed to deal with data from multiple sources and formats.}
+{\vspace{-0.3cm}}
+\end{entrylist}\
+\\
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+  {}
+  {Fast learner}
+  {}
+  {Usually involved in environments with multiple languages and technologies that needs to be up and running in very tight schedules.}
+%------------------------------------------------
+\entry
+  {}
+  {Good teacher}
+  {}
+  {Enjoyed the challenge of teaching SQL to coworkers with a social sciences background who never heard of databases or multidimensional dataframes. Now they are running their own queries.}
+%------------------------------------------------
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+
+\end{document}
